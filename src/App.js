@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import Content from './components/Content';
+import globe from './Video/Pexels Videos 1851190.mp4';
+
+const client = new ApolloClient({
+  cache: new InMemoryCache(),
+  uri: "https://countries.trevorblades.com",
+  options: {
+    heaers: {
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "application/json",
+      "Connection": "keep-alive",
+      "DNT": "1",
+      "Origin": "https://countries.trevorblades.com"
+    }
+  }
+});
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   return (
+    <ApolloProvider client={client}>
+      <div className = "App">
+      <video autoPlay muted loop>
+       <source src= {globe}
+        type="video/mp4"/>
+        </video>
+        <Content/>
+      </div>
+    </ApolloProvider>
   );
 }
 
