@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GraphQL-Country-Data/static/css/main.0b291672.chunk.css",
+    "main.js": "/GraphQL-Country-Data/static/js/main.de56e186.chunk.js",
+    "main.js.map": "/GraphQL-Country-Data/static/js/main.de56e186.chunk.js.map",
+    "runtime-main.js": "/GraphQL-Country-Data/static/js/runtime-main.d2ddc551.js",
+    "runtime-main.js.map": "/GraphQL-Country-Data/static/js/runtime-main.d2ddc551.js.map",
+    "static/js/2.0a7e63f1.chunk.js": "/GraphQL-Country-Data/static/js/2.0a7e63f1.chunk.js",
+    "static/js/2.0a7e63f1.chunk.js.map": "/GraphQL-Country-Data/static/js/2.0a7e63f1.chunk.js.map",
+    "index.html": "/GraphQL-Country-Data/index.html",
+    "static/css/main.0b291672.chunk.css.map": "/GraphQL-Country-Data/static/css/main.0b291672.chunk.css.map",
+    "static/js/2.0a7e63f1.chunk.js.LICENSE.txt": "/GraphQL-Country-Data/static/js/2.0a7e63f1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/GraphQL-Country-Data/static/media/NotoColorEmoji.31dec991.ttf",
+    "static/media/error.css": "/GraphQL-Country-Data/static/media/NotoSans-Medium.0fbf0f28.ttf",
+    "static/media/Pexels Videos 1851190.217bc138.mp4": "/GraphQL-Country-Data/static/media/Pexels Videos 1851190.217bc138.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2ddc551.js",
+    "static/js/2.0a7e63f1.chunk.js",
+    "static/css/main.0b291672.chunk.css",
+    "static/js/main.de56e186.chunk.js"
+  ]
+}
