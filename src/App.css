@@ -27,10 +27,7 @@
   font-family: NotoSans-Light;
   src: url('./Fonts/NotoSans-Medium.ttf');
 }
-@font-face {
-  font-family: NotoSerif-Light;
-  src: url('./Fonts/NotoSerif-Light.ttf');
-}
+
 @font-face {
   font-family: NotoEmoji-Regular;
   src: url('./Fonts/NotoColorEmoji.ttf');
